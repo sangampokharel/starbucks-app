@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA17C8632B30970B00D7CFFE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17C8622B30970B00D7CFFE /* HistoryViewController.swift */; };
+		DA17C8662B30972B00D7CFFE /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17C8652B30972B00D7CFFE /* HistoryModel.swift */; };
+		DA17C8692B30A35900D7CFFE /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17C8682B30A35900D7CFFE /* HistoryTableViewCell.swift */; };
+		DAB8941C2B29F21200B07F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8941B2B29F21200B07F2E /* AppDelegate.swift */; };
+		DAB894202B29F21200B07F2E /* StarBucksTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8941F2B29F21200B07F2E /* StarBucksTabViewController.swift */; };
+		DAB894252B29F21300B07F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB894242B29F21300B07F2E /* Assets.xcassets */; };
+		DAB894282B29F21300B07F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB894262B29F21300B07F2E /* LaunchScreen.storyboard */; };
+		DAB894332B29F83600B07F2E /* Extensions + Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB894322B29F83600B07F2E /* Extensions + Colors.swift */; };
+		DAB894352B29F97200B07F2E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB894342B29F97200B07F2E /* HomeViewController.swift */; };
+		DAB894382B29FBC900B07F2E /* HomeNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB894372B29FBC900B07F2E /* HomeNavBarView.swift */; };
+		DAB8943B2B2AC08900B07F2E /* TilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8943A2B2AC08900B07F2E /* TilesViewController.swift */; };
+		DAB8943D2B2AC0DD00B07F2E /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8943C2B2AC0DD00B07F2E /* TileView.swift */; };
+		DAB894402B2B073200B07F2E /* StarBalanceRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8943F2B2B073200B07F2E /* StarBalanceRewardView.swift */; };
+		DAB894422B2B08A100B07F2E /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB894412B2B08A100B07F2E /* RewardViewController.swift */; };
+		DAB894442B2B1B0400B07F2E /* RewardPointsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB894432B2B1B0400B07F2E /* RewardPointsInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA17C8622B30970B00D7CFFE /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		DA17C8652B30972B00D7CFFE /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		DA17C8682B30A35900D7CFFE /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		DAB894182B29F21200B07F2E /* StarBucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarBucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB8941B2B29F21200B07F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB8941F2B29F21200B07F2E /* StarBucksTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksTabViewController.swift; sourceTree = "<group>"; };
+		DAB894242B29F21300B07F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB894272B29F21300B07F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB894292B29F21300B07F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB894322B29F83600B07F2E /* Extensions + Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + Colors.swift"; sourceTree = "<group>"; };
+		DAB894342B29F97200B07F2E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAB894372B29FBC900B07F2E /* HomeNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavBarView.swift; sourceTree = "<group>"; };
+		DAB8943A2B2AC08900B07F2E /* TilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesViewController.swift; sourceTree = "<group>"; };
+		DAB8943C2B2AC0DD00B07F2E /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		DAB8943F2B2B073200B07F2E /* StarBalanceRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBalanceRewardView.swift; sourceTree = "<group>"; };
+		DAB894412B2B08A100B07F2E /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		DAB894432B2B1B0400B07F2E /* RewardPointsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardPointsInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB894152B29F21200B07F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA17C8612B3096F800D7CFFE /* History */ = {
+			isa = PBXGroup;
+			children = (
+				DA17C8672B30A33D00D7CFFE /* HistroyCell */,
+				DA17C8622B30970B00D7CFFE /* HistoryViewController.swift */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		DA17C8642B30971D00D7CFFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA17C8652B30972B00D7CFFE /* HistoryModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DA17C8672B30A33D00D7CFFE /* HistroyCell */ = {
+			isa = PBXGroup;
+			children = (
+				DA17C8682B30A35900D7CFFE /* HistoryTableViewCell.swift */,
+			);
+			name = HistroyCell;
+			sourceTree = "<group>";
+		};
+		DAB8940F2B29F21200B07F2E = {
+			isa = PBXGroup;
+			children = (
+				DAB8941A2B29F21200B07F2E /* StarBucks */,
+				DAB894192B29F21200B07F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB894192B29F21200B07F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB894182B29F21200B07F2E /* StarBucks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB8941A2B29F21200B07F2E /* StarBucks */ = {
+			isa = PBXGroup;
+			children = (
+				DA17C8642B30971D00D7CFFE /* Models */,
+				DAB894312B29F81E00B07F2E /* Extensions */,
+				DAB894302B29F3EB00B07F2E /* ViewControllers */,
+				DAB8942F2B29F33200B07F2E /* Files */,
+				DAB8941B2B29F21200B07F2E /* AppDelegate.swift */,
+			);
+			path = StarBucks;
+			sourceTree = "<group>";
+		};
+		DAB8942F2B29F33200B07F2E /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB894242B29F21300B07F2E /* Assets.xcassets */,
+				DAB894262B29F21300B07F2E /* LaunchScreen.storyboard */,
+				DAB894292B29F21300B07F2E /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		DAB894302B29F3EB00B07F2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8941F2B29F21200B07F2E /* StarBucksTabViewController.swift */,
+				DA17C8612B3096F800D7CFFE /* History */,
+				DAB894362B29FBB100B07F2E /* Home */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DAB894312B29F81E00B07F2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAB894322B29F83600B07F2E /* Extensions + Colors.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DAB894362B29FBB100B07F2E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8943E2B2B071500B07F2E /* RewardView */,
+				DAB894392B2AC07800B07F2E /* Tiles */,
+				DAB894342B29F97200B07F2E /* HomeViewController.swift */,
+				DAB894372B29FBC900B07F2E /* HomeNavBarView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DAB894392B2AC07800B07F2E /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8943A2B2AC08900B07F2E /* TilesViewController.swift */,
+				DAB8943C2B2AC0DD00B07F2E /* TileView.swift */,
+			);
+			name = Tiles;
+			sourceTree = "<group>";
+		};
+		DAB8943E2B2B071500B07F2E /* RewardView */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8943F2B2B073200B07F2E /* StarBalanceRewardView.swift */,
+				DAB894412B2B08A100B07F2E /* RewardViewController.swift */,
+				DAB894432B2B1B0400B07F2E /* RewardPointsInfoView.swift */,
+			);
+			name = RewardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB894172B29F21200B07F2E /* StarBucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB8942C2B29F21300B07F2E /* Build configuration list for PBXNativeTarget "StarBucks" */;
+			buildPhases = (
+				DAB894142B29F21200B07F2E /* Sources */,
+				DAB894152B29F21200B07F2E /* Frameworks */,
+				DAB894162B29F21200B07F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarBucks;
+			productName = StarBucks;
+			productReference = DAB894182B29F21200B07F2E /* StarBucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB894102B29F21200B07F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DAB894172B29F21200B07F2E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DAB894132B29F21200B07F2E /* Build configuration list for PBXProject "StarBucks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB8940F2B29F21200B07F2E;
+			productRefGroup = DAB894192B29F21200B07F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB894172B29F21200B07F2E /* StarBucks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB894162B29F21200B07F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB894282B29F21300B07F2E /* LaunchScreen.storyboard in Resources */,
+				DAB894252B29F21300B07F2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB894142B29F21200B07F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB894202B29F21200B07F2E /* StarBucksTabViewController.swift in Sources */,
+				DAB8943D2B2AC0DD00B07F2E /* TileView.swift in Sources */,
+				DA17C8692B30A35900D7CFFE /* HistoryTableViewCell.swift in Sources */,
+				DAB894382B29FBC900B07F2E /* HomeNavBarView.swift in Sources */,
+				DAB8943B2B2AC08900B07F2E /* TilesViewController.swift in Sources */,
+				DAB894442B2B1B0400B07F2E /* RewardPointsInfoView.swift in Sources */,
+				DA17C8632B30970B00D7CFFE /* HistoryViewController.swift in Sources */,
+				DAB894422B2B08A100B07F2E /* RewardViewController.swift in Sources */,
+				DAB8941C2B29F21200B07F2E /* AppDelegate.swift in Sources */,
+				DA17C8662B30972B00D7CFFE /* HistoryModel.swift in Sources */,
+				DAB894332B29F83600B07F2E /* Extensions + Colors.swift in Sources */,
+				DAB894402B2B073200B07F2E /* StarBalanceRewardView.swift in Sources */,
+				DAB894352B29F97200B07F2E /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAB894262B29F21300B07F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB894272B29F21300B07F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB8942A2B29F21300B07F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB8942B2B29F21300B07F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB8942D2B29F21300B07F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63VV5L9HD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarBucks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangam.StarBucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DAB8942E2B29F21300B07F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63VV5L9HD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarBucks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangam.StarBucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB894132B29F21200B07F2E /* Build configuration list for PBXProject "StarBucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8942A2B29F21300B07F2E /* Debug */,
+				DAB8942B2B29F21300B07F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB8942C2B29F21300B07F2E /* Build configuration list for PBXNativeTarget "StarBucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB8942D2B29F21300B07F2E /* Debug */,
+				DAB8942E2B29F21300B07F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB894102B29F21200B07F2E /* Project object */;
+}
